@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZARA | Nova col·lecció | Exercici</title>
+    <link rel="stylesheet" href="estils.css">
+</head>
+<body>
+    <header id="capcalera">
+        <h1 class="logotip">ZARA</h1>
+
+        <nav aria-label="Menú principal">
+            <ul class="menu">
+                <li>
+                    <a href="index.html" class="actiu" aria-current="page">
+                        Novetats
+                    </a>
+                </li>
+                <li><a href="dona.html">Dona</a></li>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="accessoris.html">Accessoris</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="portada" aria-labelledby="titol-portada">
+            <img
+                src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1600&q=85"
+                alt="Interior d'una botiga de moda amb roba exposada"
+            >
+            <div class="text-portada">
+                <h2 id="titol-portada">Nova col·lecció</h2>
+                <p>
+                    Peces essencials, textures naturals i un estil
+                    pensat per al dia a dia.
+                </p>
+                <a href="#colleccions" class="boto">
+                    Descobreix les col·leccions
+                </a>
+            </div>
+        </section>
+
+        <section id="colleccions" aria-labelledby="titol-seccio">
+            <h2 id="titol-seccio" class="titol-seccio">
+                Explora les col·leccions
+            </h2>
+
+            <div class="galeria">
+                <a href="dona.html" class="targeta">
+                    <div class="caixa-imatge">
+                        <img
+                            src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1600&q=85"
+                            alt="Moda de dona en un entorn urbà"
+                            loading="lazy"
+                        >
+                    </div>
+                    <h3>Dona</h3>
+                </a>
+
+                <a href="home.html" class="targeta">
+                    <div class="caixa-imatge">
+                        <img
+                            src="https://images.unsplash.com/photo-1617137968427-85924c800a22?auto=format&fit=crop&w=1600&q=85"
+                            alt="Conjunt de moda masculina"
+                            loading="lazy"
+                        >
+                    </div>
+                    <h3>Home</h3>
+                </a>
+
+                <a href="accessoris.html" class="targeta">
+                    <div class="caixa-imatge">
+                        <img
+                            src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=1600&q=85"
+                            alt="Bossa de mà amb detalls metàl·lics"
+                            loading="lazy"
+                        >
+                    </div>
+                    <h3>Accessoris</h3>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="peu">
+        <p>
+            Exercici d'HTML i CSS
+        </p>
+    </footer>
+</body>
+</html>
